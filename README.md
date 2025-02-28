@@ -14,9 +14,7 @@ To prevent score manipulation by students, the app has a way of checking the res
 
 The Score Checksum asks for the result string first. After that, the supervisor can enter the hexvalue. This is the sum of the score, taking only the last two digits of each score, turned into a hexadecimal value. This hexvalue is disguised as a student-ID.
 
-If everything is correct, the prompt will display a "Match". Otherwise, it'll display "no match", which means the file was edited.
-
-
+If everything is correct, the prompt will display a "Match". Otherwise, it'll display "No match", which means the file was edited. If this is the case, it will output the correct hexvalue, which can be calculated back into decimal. 
 
 
 ## Screenshots
